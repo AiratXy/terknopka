@@ -10,4 +10,4 @@ function openTab() {
   newTab.document.write("<html><head><title>New Tab</title></head><body>Content of the new tab...</body></html>");
 }
 
-document.getElementById("openTabButton").addEventListener("click", openTab);
+document.getElementById("openTabButton").addEventListener("click", openTab);// вот это место точно скип, полностью пропускаем
